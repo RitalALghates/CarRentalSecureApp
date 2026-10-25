@@ -35,7 +35,7 @@ public static void printResults(List<RecommendationResult> results) {
     System.out.println("\n===== Recommended Cars =====\n");
 
     for (RecommendationResult result : results) {
-        System.out.println("? Car: " + result.getCar().getDisplayName());
+        System.out.println("Car: " + result.getCar().getDisplayName());
         System.out.println("   Category: " + result.getCar().getCategory());
         System.out.println("   Tier: " + result.getCar().getRentalTier() +
                 " (" + result.getCar().getComfortLevel() + ")");

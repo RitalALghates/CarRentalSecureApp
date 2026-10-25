@@ -1,0 +1,8 @@
+﻿# Build output and IDE files
+bin/
+out/
+.settings/
+.DS_Store
+
+# Runtime data (user accounts created while using the app)
+data/users.txt
